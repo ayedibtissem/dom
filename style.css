@@ -1,0 +1,131 @@
+.main-navbar{ 
+  display: flex;
+  position: relative;
+justify-content: space-around;
+float: right;
+padding-top: 1.33em;
+word-spacing: 10px;
+width: 40%;
+}
+
+a{
+  text-decoration:none ;
+  color:gray;
+  }
+  .active{
+color: #00b39b;
+}
+
+
+.img-logo{
+  
+    display: block;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 8%;
+
+  
+}
+.title{
+  
+  color:#00b39b;
+  text-align:center;
+  font-family:system-ui;
+  font-size:2.125rem ;
+}
+
+.pr{
+  display: flex;
+  color: rgb(139, 124, 124);
+
+  margin-left: 25%;
+  margin-right:25%;
+line-height: 1.75em;
+font-weight: justify;
+font-family:Arial, Helvetica, sans-serif;
+padding: 20px;
+
+}
+
+ 
+.countries{
+  border:0;
+  border-radius: 0;
+  padding: 0 3.5em 0 3.5em;
+  width: 100%;
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top:0.75px;
+background-color: #00ccb1;
+text-decoration: underline;
+}
+
+
+
+  
+
+.services{
+  border:10% ;
+  margin: auto;
+width: 700px;
+  height :300px;
+  background-color:white ;
+  display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-row: repeat(3,1fr);
+column-gap: 30px;
+padding: 2em 2em 0;
+
+}
+
+  .patients{
+    background-color: #00ccb1;
+    border-radius: 0.5cm;
+    height: 400px;
+    width: 300;
+   
+  }
+  .doctors{
+   
+    background-color:#3d83df ;
+    border-radius: 0.5cm;
+    font-family: 'Times New Roman', Times, serif;
+    width: 300;
+    height: 400;
+    
+  }
+  .clinics{
+    background-color:#1b2734 ;
+    border-radius: 0.5cm;
+    width: 300;
+    height: 400;
+  }
+  .global-company {
+   
+display: flex;
+   
+padding-bottom: 30px;
+   
+margin-left: 100;
+   
+align-items: baseline;
+   
+width: 50%;
+   
+color: rgb(97, 228, 228);
+   
+font-size:15px;
+   
+margin-top: 150px;
+  }
+  
+  .list-company{
+    display: flex;
+    padding: 0 20px;
+   margin-bottom: 30px ;
+  }
+  .office-head{
+    font-size: .875em;
+    text-align: center;
+}

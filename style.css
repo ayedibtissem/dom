@@ -56,8 +56,8 @@ padding: 20px;
   width: 100%;
   text-align: start;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top:0.75px;
-background-color: #00ccb1;
+  margin-top:3px;
+background-color: white;
 text-decoration: underline;
 }
 
@@ -83,6 +83,7 @@ padding: 2em 2em 0;
     background-color: #00ccb1;
     border-radius: 0.5cm;
     height: 400px;
+    color:white;
     width: 300;
    
   }
@@ -91,6 +92,7 @@ padding: 2em 2em 0;
     background-color:#3d83df ;
     border-radius: 0.5cm;
     font-family: 'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
     width: 300;
     height: 400;
     
@@ -100,6 +102,8 @@ padding: 2em 2em 0;
     border-radius: 0.5cm;
     width: 300;
     height: 400;
+    color:white;
+    margin:0.5em;
   }
   .global-company {
    
@@ -126,6 +130,106 @@ margin-top: 150px;
    margin-bottom: 30px ;
   }
   .office-head{
-    font-size: .875em;
+    font-size: 100e;
+    text-align: center;
+color: #00b39b;
+  }
+.imgaplatform{
+  margin-top: 200;
+}
+
+.platform-{
+  display: flex;
+  flex-direction: column;
+  margin: 45px 0px;
+  margin-bottom: 40;
+    width: 40%;
+}
+.platform{
+  background-color: #e5faf8;
+  display: flex;
+  height: 580px;
+
+  padding: 6%;
+  overflow: hidden;
+  justify-content: center;
+}
+.flag{
+  background: white;
+    width: 240px;
+    height: 260px;
+    margin-top: 20px;
     text-align: center;
 }
+.visits{
+  background: white;
+  width: 240px;
+  height: 260px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+.patients1{
+  background: white;
+  width: 240px;
+  height: 260px;
+  margin-top: 20px;
+  text-align: center;
+}
+.doctors1{
+  background: white;
+  width: 240px;
+  height: 260px;
+  margin-top: 20px;
+  text-align: center;
+}
+.platform-right{
+  float: left;
+    min-height: 1px;
+    padding: 10px;
+    display: flex;
+}
+.office-slide{
+  margin: 82px auto;
+  margin-top: 300;
+  display: grid;
+  grid-template-rows: 120px 168px;
+  grid-template-columns: 299px 301px 203px;
+  grid-row-gap: 239px;
+  grid-column-gap: 107px;
+  grid-gap: 38px;
+  grid-gap: 50px;
+  
+  grid-row-gap: 153px;
+  grid-column-gap: 83px;
+  grid-gap: 30px;
+  justify-items: start;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+}
+
+
+.bottom{
+  display: inline;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 6px;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 300;
+ 
+
+    text-transform: uppercase;
+}
+   
+.countries{
+ 
+    text-decoration: none;
+    color: #32537e;
+}
+
